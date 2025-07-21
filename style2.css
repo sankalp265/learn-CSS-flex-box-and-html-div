@@ -1,0 +1,27 @@
+#containers{
+    height:500px;
+    width: 80%;
+    background-color: aqua;
+    border:2px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    /* justify-content:center; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+h1{
+    text-align: center;
+}
+#containers div{
+    font-size:1cm;
+    color: aliceblue;
+    height:150px;
+    width: 150px;
+    text-align: center;
+}
+#green{
+    flex-grow: 2;
+}
